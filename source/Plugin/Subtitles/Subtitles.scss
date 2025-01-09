@@ -66,11 +66,14 @@
     .vjs-menu {
       width: 100%;
       z-index: 100;
-      bottom: 0!important;
+      bottom: 0;
+      left: 0;
       .vjs-menu-content {
-        padding-left: 15px;
         transition: none!important;
       }
+    }
+    .vjs-lock-showing {
+      background-color: rgba(0,0,0,0.7);
     }
   }
 }
