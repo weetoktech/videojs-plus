@@ -24,7 +24,7 @@ Currently, only support text track kind `subtitles`, not sure `caption` should a
 ```js run
 const subtitles = [
   {
-    default: true, // highlight-line
+    // default: true, // highlight-line
     kind: 'subtitles',
     srclang: 'zh-TW',
     label: '中文（繁體）',
@@ -45,7 +45,7 @@ const player = videojs('example-video', {
 // or
 // player.subtitles().load(subtitles); // highlight-line
 
-player.findChild('SettingMenuButton')[0].component.handleClick();
+// player.findChild('SettingMenuButton')[0].component.handleClick();
 ```
 
 #### API and Event

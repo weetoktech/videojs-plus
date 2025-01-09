@@ -1,0 +1,11 @@
+@import '../../variable.scss';
+
+.vjs-subtitles-button {
+  .vjs-menu {
+    left: -10px;
+    bottom: calc(#{$control-bar-height} + 15px);
+    z-index: 1;
+    max-height: calc(90% - #{$control-bar-height});
+    overflow-y: auto;
+  }
+}

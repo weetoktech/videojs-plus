@@ -52,6 +52,10 @@ class SettingMenu extends Menu {
     });
 
     children.forEach(child => {
+      // console.log(child.name());
+      if (child.name() === 'SubtitleSettingMenuItem') {
+        return;
+      }
       this.addChild(child);
     });
   }
