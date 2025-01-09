@@ -57,7 +57,6 @@
       align-items: center;
       .vjs-menu-item-text {
         display: inline-block;
-        color: #333!important;
       }
     }
   }
@@ -70,6 +69,9 @@
       left: 0;
       .vjs-menu-content {
         transition: none!important;
+      }
+      .vjs-menu-item .vjs-menu-item-text {
+        color: #333;
       }
     }
     .vjs-lock-showing {
